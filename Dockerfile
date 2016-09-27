@@ -1,4 +1,4 @@
-FROM java:openjdk-8-jre-alpine
+FROM openjdk:8-jre
 MAINTAINER Justin Plock <justin@plock.net>
 
 ARG MIRROR=http://apache.mirrors.pair.com
